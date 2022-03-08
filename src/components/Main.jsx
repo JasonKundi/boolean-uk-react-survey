@@ -41,7 +41,7 @@ function Main() {
 
   function submitButton(event){
     event.preventDefault();
-    const userInfo = {rate, time, say, username, email}
+    const userInfo = {rating, time, say, name, email}
     console.log('Form Submission', userInfo)
 
     setRate('')
